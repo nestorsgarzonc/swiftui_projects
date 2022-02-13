@@ -45,6 +45,8 @@
 		EB42EB4327B6C4B300E0DB4B = {
 			isa = PBXGroup;
 			children = (
+				EB91DD4927B9682E00A207FC /* Views */,
+				EB91DD4827B9682000A207FC /* Models */,
 				EB91DD4127B9673F00A207FC /* Components */,
 				EB42EB4E27B6C4B300E0DB4B /* bill splitting */,
 				EB42EB4D27B6C4B300E0DB4B /* Products */,
@@ -63,11 +65,8 @@
 			isa = PBXGroup;
 			children = (
 				EB42EB4F27B6C4B300E0DB4B /* bill_splittingApp.swift */,
-				EB42EB5127B6C4B300E0DB4B /* ContentView.swift */,
 				EB42EB5327B6C4B500E0DB4B /* Assets.xcassets */,
 				EB42EB5527B6C4B500E0DB4B /* Preview Content */,
-				EB91DD3D27B9644600A207FC /* ResultScreen.swift */,
-				EB91DD3F27B9645800A207FC /* BillModel.swift */,
 			);
 			path = "bill splitting";
 			sourceTree = "<group>";
@@ -88,6 +87,23 @@
 				EB91DD4627B9679200A207FC /* CustomText.swift */,
 			);
 			path = Components;
+			sourceTree = "<group>";
+		};
+		EB91DD4827B9682000A207FC /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				EB91DD3F27B9645800A207FC /* BillModel.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		EB91DD4927B9682E00A207FC /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				EB42EB5127B6C4B300E0DB4B /* ContentView.swift */,
+				EB91DD3D27B9644600A207FC /* ResultScreen.swift */,
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */

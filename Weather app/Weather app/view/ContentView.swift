@@ -2,10 +2,7 @@ import SwiftUI
 import CoreLocation
 
 struct ContentView: View, WeatherDataDelegate {
-    let locationManager=CLLocationManager()
-    
     init() {
-        locationManager.requestWhenInUseAuthorization()
     }
     
     func didFailWithError(error: Error?) {
@@ -24,7 +21,6 @@ struct ContentView: View, WeatherDataDelegate {
     @State private var icon: String?
     
     func handleOnLocate(){
-        print(locationManager.location)
     }
     
     func handleOnSearch(){
